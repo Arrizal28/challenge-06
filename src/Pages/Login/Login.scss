@@ -1,0 +1,25 @@
+@import 'antd/dist/antd.min.css';
+
+.Login {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://img.freepik.com/free-photo/assortment-cinema-elements-red-background-with-copy-space_23-2148457848.jpg?w=1380&t=st=1665836748~exp=1665837348~hmac=b9a9842b2bdbdf17ea63397e118b559cfb6cb54751cebd7abf280c70d4f8fa79');
+  background-size: cover;
+  z-index: 1;
+}
+
+.submain {
+  text-align: center;
+  width: 35%;
+  .ant-btn{
+    background-color: red;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    border-radius: 16px;
+  }
+  .ant-input-affix-wrapper{
+    border-radius: 20px;
+  }
+  .ant-input-password{
+    width: 100%;
+  }
+}

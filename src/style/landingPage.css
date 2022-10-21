@@ -1,0 +1,189 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.recon {
+  background-color: white;
+  height: 790px;
+  width: 1000px;
+}
+
+body {
+  background: #ccc;
+  background-image: url('https://play-lh.googleusercontent.com/YUBDky2apqeojcw6eexQEpitWuRPOK7kPe_UbqQNv-A4Pi_fXm-YQ8vTCwPKtxIPgius');
+  background-size: auto;
+}
+
+.myBG {
+  height: 100vh;
+  background-size: cover;
+}
+
+.brightimg {
+  filter: brightness(50%)
+}
+
+.brighttext{
+  filter: brightness(100%);
+}
+
+.intro {
+  height: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+
+
+.box {
+  width: 700px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.textbox {
+  width: 700px;
+  position: absolute;
+  top: 220px;
+  left: 20px;
+  color: white;
+}
+
+.detailtext {
+  width: 700px;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  color: white;
+}
+
+.ratetext {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.detailtext h1 {
+  font-size: 84px;
+}
+
+.textbox h1 {
+  font-size: 84px;
+  color: white;
+}
+
+.detailtext button {
+  width: 250px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  border-color: red;
+}
+
+.textbox button {
+  width: 250px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  border-color: red;
+}
+.searchicon {
+  color: white;
+}
+
+button .spanwt{
+  margin-left: 10px;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+.srcicon {
+  padding-right: 100px;
+}
+
+.Xsa {
+  width: 1000px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  border-color: red;
+  flex: 1;
+}
+
+.formnav {
+  color: red;
+}
+
+.searchbar {
+  color: red;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 4px;
+}
+
+.search-box{
+  background-color: 0;
+  width:100%;
+}
+
+.cari {
+  width: 100%;
+}
+
+
+.trending {
+  height: auto;
+  background-size: cover;
+}
+
+.movieImage {
+  height: auto;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.images {
+  height: 500px;
+}
+
+.trending {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.card {
+  border: 1px solid #fff;
+  background: black;
+  border-radius: 8px;
+  overflow: hidden;
+
+  height: 400px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero {
+	position: relative;
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
